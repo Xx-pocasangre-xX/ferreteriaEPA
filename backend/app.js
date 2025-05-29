@@ -38,6 +38,6 @@ app.use("/api/registerClients", registerClientsRoutes);
 app.use("/api/recoveryPassword", recoveryPasswordRoutes);
 app.use("/api/providers", providersRoutes);
 app.use("/api/brands", brandsRoutes);
-app.use("/api", authRoutes);
+//app.use("/api", authRoutes);
 
 export default app;
