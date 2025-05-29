@@ -23,6 +23,10 @@ function App() {
     setCurrentView('login');
   };
 
+  const handleLoginSuccess =  () => {
+    setCurrentView('products');
+  };
+
   const handleLogOut = () => {
 
     setCurrentView('login');
